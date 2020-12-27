@@ -11,9 +11,10 @@ import threading
 import time
 import concurrent.futures
 
+os.chdir(sys._MEIPASS)
 
-from .lib.core.input import InputParser, InputHelper
-from .lib.core.output import OutputHelper, Level
+from lib.core.input import InputParser, InputHelper
+from lib.core.output import OutputHelper, Level
 
 
 def rand():
